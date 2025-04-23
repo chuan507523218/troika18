@@ -444,12 +444,13 @@ text{
     </a-sky>
     <a-sound src="src: url(backgroundfinal.mp3)" autoplay="true" loop="true" position="-1 0.75 -6"></a-sound>
     <a-entity light="type: ambient; color: #FFFFFF"></a-entity>
-    <a-entity gltf-model="#earth" position="-2 2 -6" scale="1.5 1.5 1.5">
+    <a-entity gltf-model="#earth" position="-2 2 -6"  rotation="0 0 0" scale="1.5 1.5 1.5">
       <a-animation attribute="rotation"
              dur="15000"
              from="0 0 0"
              to="0 30 0"
              direction="alternate"
+             easing="ease-in-out"
              repeat="indefinite"></a-animation>
     </a-entity>
     <a-entity id="moon" obj-model="obj: #moon-obj; mtl: #moon-mtl" scale="0.003 0.003 0.003">
