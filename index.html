@@ -446,8 +446,9 @@ text{
     <a-entity light="type: ambient; color: #FFFFFF"></a-entity>
     <a-entity gltf-model="#earth" position="-2 2 -6" scale="1.5 1.5 1.5">
       <a-animation attribute="rotation"
-             dur="30000"
+             dur="15000"
              to="0 30 0"
+             direction="alternate"
              repeat="indefinite"></a-animation>
     </a-entity>
     <a-entity id="moon" obj-model="obj: #moon-obj; mtl: #moon-mtl" scale="0.003 0.003 0.003">
